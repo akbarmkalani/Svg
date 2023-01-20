@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+}
+.container{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(45deg, rgb(4, 4, 52),rgb(4, 4, 123));
+}
+/* svg */
+
+svg{
+    font-size: 5rem;
+    padding-top: 12%;
+  }
+  .run{
+    fill: none;
+    stroke: #fff;
+   stroke-width: 4px ;
+   stroke-dasharray: 20% 30%;
+   stroke-dashoffset: 0%;
+   animation: textnimation 10s linear infinite;
+  
+  }
+   @keyframes textnimation{
+    100%{
+      stroke-dashoffset: -35%; 
+    }
+   
+   }
+   .run1{
+     stroke: #cf0488;
+     animation-delay: -1s;
+   }
+   .run2{
+    stroke: #ff660e;
+    animation-delay: -2s;
+  }
+  .run3{
+    stroke: #084dfd;
+    animation-delay: 3s;
+  }
+  .run4{
+    stroke: #fd0606;
+    animation-delay: 4s;
+  }
+  .run5{
+    stroke: #00e5ff;
+    animation-delay: 5s;
+  }
+  
